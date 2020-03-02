@@ -128,8 +128,8 @@ show.random.ad = function(..., ind1 = sample.ad(),ind2 = sample.ad(), app=getApp
 } 
 
 main.ui = function() {
-  html = paste0("<h3>Russian sponsored Facebook Ads before US elections</h3><p>
-    Below you see 2 random Facebook ads bought by the Russian <a href='https://en.wikipedia.org/wiki/Internet_Research_Agency'>Internet Research Agency</a> mostly before the US presidential elections. Facebook provided the data as <a href='https://intelligence.house.gov/social-media-content/social-media-advertisements.htm'>PDF files</a> to US Congress. This page uses the extracted <a href='https://mith.umd.edu/irads/data/')>csv data</a> from <a href='https://mith.umd.edu/irads/about' target='_blank'>Daniel Pfister and other researchers at the University of Maryland</a>.<br>You can explore the Russian influence campaign with a little game. Guess the ad that had more clicks per impression (just click on it)!</p>")
+  html = paste0("<h3>Russian sponsored Facebook ads before US presidential elections</h3><p>
+    Below you see 2 random Facebook ads bought by the Russian <a href='https://en.wikipedia.org/wiki/Internet_Research_Agency'>Internet Research Agency</a> mostly before the US presidential elections 2016. Facebook provided the data as <a href='https://intelligence.house.gov/social-media-content/social-media-advertisements.htm'>PDF files</a> to US Congress. This page uses the extracted <a href='https://mith.umd.edu/irads/data/')>csv data</a> from <a href='https://mith.umd.edu/irads/about' target='_blank'>Daniel Pfister and other researchers at the University of Maryland</a> provided under a <a href='https://creativecommons.org/licenses/by/4.0/'>CC-BY</a> licence.</p><p>You can explore that part of the <a href='https://intelligence.house.gov/social-media-content/'>Russian influence campaign</a> with a little game. Guess the ad that had more clicks per impression (just click on it)!</p><br>")
   fluidPage(
     title="Russian (IRA) Facebook Ad Quiz",
     HTML(html),
