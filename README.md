@@ -2,7 +2,7 @@
 
 You can use the quiz here:
 
-[https://github.com/skranz/facebook_ira_ad_quiz](https://github.com/skranz/facebook_ira_ad_quiz)
+[https://fbquiz.econ.mathematik.uni-ulm.de/](https://fbquiz.econ.mathematik.uni-ulm.de/)
 
 The data in `ads.Rds` is based on the [csv data](https://mith.umd.edu/irads/data/')
 from [Daniel Pfister and other researchers at the University of Maryland](https://mith.umd.edu/irads/about). 
